@@ -199,7 +199,7 @@ namespace KutuphaneOtomasyonu3
             this.groupBox1.Controls.Add(this.uyeListeleBtn);
             this.groupBox1.Controls.Add(this.uyeEkleBtn);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox1.Location = new System.Drawing.Point(285, 324);
+            this.groupBox1.Location = new System.Drawing.Point(386, 324);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(446, 193);
             this.groupBox1.TabIndex = 31;
