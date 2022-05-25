@@ -34,9 +34,12 @@ namespace yeniotomasyon
             baglan.Open();
             if (radioButton1.Checked)
             {
-                (new MySqlCommand("insert into ogrenci (ogrenci_id, kart_id, bolum_id, ogrenci_ad, ogrenci_soyad, mail, adres,tel_no, bolum) values (" + maskedTextBox1.Text + maskedTextBox2.Text + maskedTextBox4.Text
-                    + textBox1.Text + textBox2.Text + textBox4.Text + textBox5.Text + maskedTextBox3.Text + textBox3.Text + ")", 
-                    baglan)).ExecuteNonQuery();
+                string komut = "insert into ogrenci (ogrenci_id, kart_id, bolum_id, ogrenci_ad, ogrenci_soyad, mail, adres,tel_no, bolum) values (" + maskedTextBox1.Text + "," + maskedTextBox2.Text + "," + maskedTextBox4.Text + ",'" + textBox1.Text + "','" + textBox2.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + maskedTextBox3.Text.Replace("(", "").Replace(")","") + "'," + textBox3.Text + ")";
+                MySqlCommand cm = new MySqlCommand(komut,baglan);
+                //(new MySqlCommand("insert into ogrenci (ogrenci_id, kart_id, bolum_id, ogrenci_ad, ogrenci_soyad, mail, adres,tel_no, bolum) values (" + maskedTextBox1.Text + maskedTextBox2.Text + maskedTextBox4.Text
+                //    + textBox1.Text + textBox2.Text + textBox4.Text + textBox5.Text + maskedTextBox3.Text + textBox3.Text + ")",
+                //    baglan)).ExecuteNonQuery();
+                cm.ExecuteNonQuery();
                 baglan.Close();
                 MessageBox.Show("Kayıt Başarıyla Tamamlandı.");
             }
@@ -56,7 +59,7 @@ namespace yeniotomasyon
             }
             else
                 MessageBox.Show("Kayıt Başarısız!");
-                baglan.Close();
+            baglan.Close();
         }
     }
 }
