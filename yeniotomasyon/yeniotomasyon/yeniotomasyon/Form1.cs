@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
+using MySql.Data;
+
 
 namespace yeniotomasyon
 {
@@ -15,6 +18,7 @@ namespace yeniotomasyon
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -26,5 +30,12 @@ namespace yeniotomasyon
         {
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        { 
+            uye_ekleme uye_Ekleme = new uye_ekleme();
+            uye_Ekleme.Show();
+        }
     }
+    
 }
