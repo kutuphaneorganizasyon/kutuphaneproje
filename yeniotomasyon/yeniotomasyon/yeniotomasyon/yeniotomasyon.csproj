@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Emanetkitapverfrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Emanetkitapverfrm.Designer.cs">
+      <DependentUpon>Emanetkitapverfrm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +85,9 @@
     <Compile Include="uye_ekleme.Designer.cs">
       <DependentUpon>uye_ekleme.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Emanetkitapverfrm.resx">
+      <DependentUpon>Emanetkitapverfrm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

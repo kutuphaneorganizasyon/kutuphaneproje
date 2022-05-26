@@ -44,6 +44,14 @@ namespace yeniotomasyon
             kitapekle kitapekle = new kitapekle();
             kitapekle.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Emanetkitapverfrm emanetkitapverfrm =new Emanetkitapverfrm();
+            emanetkitapverfrm.Show();
+
+            
+        }
     }
     
 }
