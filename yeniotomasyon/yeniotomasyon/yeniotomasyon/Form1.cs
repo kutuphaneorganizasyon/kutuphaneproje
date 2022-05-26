@@ -20,7 +20,7 @@ namespace yeniotomasyon
             InitializeComponent();
             
         }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
 
@@ -28,13 +28,20 @@ namespace yeniotomasyon
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            uyesil uyesil = new uyesil();
+            uyesil.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         { 
             uye_ekleme uye_Ekleme = new uye_ekleme();
             uye_Ekleme.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            kitapekle kitapekle = new kitapekle();
+            kitapekle.Show();
         }
     }
     

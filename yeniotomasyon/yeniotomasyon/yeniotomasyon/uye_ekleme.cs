@@ -21,7 +21,7 @@ namespace yeniotomasyon
 
         private void Uye_ekleme_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("sdfsadf");
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -59,7 +59,8 @@ namespace yeniotomasyon
             }
             else
                 MessageBox.Show("Kayıt Başarısız!");
-            baglan.Close();
+           
+     baglan.Close();
         }
     }
 }

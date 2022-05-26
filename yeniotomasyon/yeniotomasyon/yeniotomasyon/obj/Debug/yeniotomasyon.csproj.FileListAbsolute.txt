@@ -46,3 +46,5 @@ C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yenio
 C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.csproj.CoreCompileInputs.cache
 C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.exe
 C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.pdb
+C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.uyesil.resources
+C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.kitapekle.resources
