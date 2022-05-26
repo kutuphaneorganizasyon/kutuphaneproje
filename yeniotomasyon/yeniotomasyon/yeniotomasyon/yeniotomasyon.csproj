@@ -59,6 +59,12 @@
     <Compile Include="kitapekle.Designer.cs">
       <DependentUpon>kitapekle.cs</DependentUpon>
     </Compile>
+    <Compile Include="kitapSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kitapSil.Designer.cs">
+      <DependentUpon>kitapSil.cs</DependentUpon>
+    </Compile>
     <Compile Include="uyesil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="kitapekle.resx">
       <DependentUpon>kitapekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kitapSil.resx">
+      <DependentUpon>kitapSil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

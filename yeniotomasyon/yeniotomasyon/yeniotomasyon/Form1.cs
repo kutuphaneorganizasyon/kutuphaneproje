@@ -23,7 +23,8 @@ namespace yeniotomasyon
         
         private void button2_Click(object sender, EventArgs e)
         {
-
+            kitapSil kitapsil = new kitapSil();
+            kitapsil.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
