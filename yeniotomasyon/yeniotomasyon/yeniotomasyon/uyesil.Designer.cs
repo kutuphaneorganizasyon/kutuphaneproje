@@ -40,7 +40,7 @@ namespace yeniotomasyon
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(209, 79);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Kitabı Sil";
+            this.button1.Text = "Üyeyi Sil";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -49,9 +49,9 @@ namespace yeniotomasyon
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(135, 111);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(218, 17);
+            this.label1.Size = new System.Drawing.Size(207, 17);
             this.label1.TabIndex = 3;
-            this.label1.Text = "SİLİNECEK KİTAP ID\'SİNİ GİRİNİZ";
+            this.label1.Text = "SİLİNECEK ÜYE ID\'SİNİ GİRİNİZ";
             // 
             // İdtextbox
             // 
