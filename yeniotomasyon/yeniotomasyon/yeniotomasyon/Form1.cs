@@ -23,7 +23,8 @@ namespace yeniotomasyon
         
         private void button2_Click(object sender, EventArgs e)
         {
-
+            kitapSil kitapsil = new kitapSil();
+            kitapsil.Show();
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -42,6 +43,14 @@ namespace yeniotomasyon
         {
             kitapekle kitapekle = new kitapekle();
             kitapekle.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Emanetkitapverfrm emanetkitapverfrm =new Emanetkitapverfrm();
+            emanetkitapverfrm.Show();
+
+            
         }
     }
     
