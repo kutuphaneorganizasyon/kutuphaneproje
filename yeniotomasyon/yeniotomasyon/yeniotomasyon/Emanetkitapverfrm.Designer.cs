@@ -152,7 +152,7 @@ namespace yeniotomasyon
             this.txögrenci_id.Name = "txögrenci_id";
             this.txögrenci_id.Size = new System.Drawing.Size(100, 20);
             this.txögrenci_id.TabIndex = 4;
-            this.txögrenci_id.TextChanged += new System.EventHandler(this.txögrenci_id_TextChanged);
+            this.txögrenci_id.TextChanged += new System.EventHandler(this.Txögrenci_id_TextChanged);
             // 
             // txtadsoyad
             // 
@@ -374,7 +374,7 @@ namespace yeniotomasyon
             this.btnekle.TabIndex = 2;
             this.btnekle.Text = "ekle";
             this.btnekle.UseVisualStyleBackColor = true;
-            this.btnekle.Click += new System.EventHandler(this.btnekle_Click);
+            this.btnekle.Click += new System.EventHandler(this.Btnekle_Click);
             // 
             // btnsil
             // 
