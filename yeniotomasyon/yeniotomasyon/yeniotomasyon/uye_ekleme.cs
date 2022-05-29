@@ -34,8 +34,17 @@ namespace yeniotomasyon
             baglan.Open();
             if (radioButton1.Checked)
             {
-                string komut = "insert into ogrenci (ogrenci_id, kart_id, bolum_id, ogrenci_ad, ogrenci_soyad, mail, adres,tel_no, bolum) values (" + maskedTextBox1.Text + "," + maskedTextBox2.Text + "," + maskedTextBox4.Text + ",'" + textBox1.Text + "','" + textBox2.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + maskedTextBox3.Text.Replace("(", "").Replace(")","") + "'," + textBox3.Text + ")";
-                MySqlCommand cm = new MySqlCommand(komut,baglan);
+                string komut = "INSERT INTO Bolum (Adi) VALUES ('" + textBox3.Text + "')";
+                MySqlCommand CMD = new MySqlCommand(komut, baglan);
+                CMD.ExecuteNonQuery();
+
+                MySqlCommand cmd = new MySqlCommand("SELECT LAST_INSERT_ID();", baglan);
+                int last = int.Parse(cmd.ExecuteScalar().ToString());
+
+
+
+                string komut2 = "insert into Ogrenci (ogrenci_id, kart_id, bolum_id, ogrenci_ad, ogrenci_soyad, mail, adres,tel_no, bolum) values (" + maskedTextBox1.Text + "," + maskedTextBox2.Text + "," + last + ",'" + textBox1.Text + "','" + textBox2.Text + "','" + textBox4.Text + "','" + textBox5.Text + "','" + maskedTextBox3.Text.Replace("(", "").Replace(")","") + "'," + textBox3.Text + ")";
+                MySqlCommand cm = new MySqlCommand(komut2,baglan);
                 //(new MySqlCommand("insert into ogrenci (ogrenci_id, kart_id, bolum_id, ogrenci_ad, ogrenci_soyad, mail, adres,tel_no, bolum) values (" + maskedTextBox1.Text + maskedTextBox2.Text + maskedTextBox4.Text
                 //    + textBox1.Text + textBox2.Text + textBox4.Text + textBox5.Text + maskedTextBox3.Text + textBox3.Text + ")",
                 //    baglan)).ExecuteNonQuery();

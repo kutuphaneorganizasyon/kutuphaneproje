@@ -99,6 +99,7 @@ namespace yeniotomasyon
 
         private void Btnekle_Click(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
             MySqlConnection baglanti = new MySqlConnection();
             baglanti.ConnectionString = "Server=172.21.54.3;  uid=Ubebe; pwd=Ubebe123.;database=Ubebe";
             baglanti.Open();
@@ -106,6 +107,19 @@ namespace yeniotomasyon
                  "','" + txtkitapdili + "','" + txtcevirmen + "','" + txtsayfasayisi + "','" + dateTimePicker1 + "','" + dateTimePicker2 + "','" + Convert.ToInt32(textBox1.Text) + ")", baglanti)).ExecuteNonQuery();  
             baglanti.Close();
             MessageBox.Show("Kitap Emanet Edildi"); 
+=======
+            //MySqlConnection baglanti = new MySqlConnection();
+            //baglanti.ConnectionString = "Server=172.21.54.3;  uid=Ubebe; pwd=Ubebe123.;database=Ubebe";
+            //baglanti.Open();
+            //(new MySqlCommand("insert into sepet(ISBN,Kitap Adı,Yazar Adı,Kitap Sayısı,Kitap Dili,Çevirmen,	Sayfa Sayısı,Teslim Tarihi,İade Tarihi) values('" + txtısbn.Text + "','" + txtkitapadi + "','" + txtyazaradi + "','" + txtkitapsayisi +
+            //     "','" + txtkitapdili + "','" + txtcevirmen + "','" + txtsayfasayisi + "','" + dateTimePicker1 + "','" + dateTimePicker2 + "','" + Convert.ToInt32(textBox1.Text) + "','"), baglanti)).ExecuteNonQuery();
+            //baglanti.Close();
+            //MessageBox.Show("Kitap Emanet Edildi");
+
+
+
+
+>>>>>>> Stashed changes
 
         }
 

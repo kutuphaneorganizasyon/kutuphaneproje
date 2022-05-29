@@ -104,3 +104,5 @@ C:\Users\bilge\OneDrive\Belgeler\GitHub\UML_diagram\yeniotomasyon\yeniotomasyon\
 C:\Users\bilge\OneDrive\Belgeler\GitHub\UML_diagram\yeniotomasyon\yeniotomasyon\yeniotomasyon\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\bilge\OneDrive\Belgeler\GitHub\UML_diagram\yeniotomasyon\yeniotomasyon\yeniotomasyon\bin\Debug\MySql.Data.xml
 C:\Users\bilge\OneDrive\Belgeler\GitHub\UML_diagram\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.csproj.CopyComplete
+C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.Emanetkitapverfrm.resources
+C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.kitapSil.resources
