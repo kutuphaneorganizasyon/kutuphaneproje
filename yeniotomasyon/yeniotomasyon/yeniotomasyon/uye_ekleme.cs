@@ -66,6 +66,7 @@ namespace yeniotomasyon
                 baglan.Close();
                 MessageBox.Show("Kayıt Başarıyla Tamamlandı.");
             }
+           
             else
                 MessageBox.Show("Kayıt Başarısız!");
            

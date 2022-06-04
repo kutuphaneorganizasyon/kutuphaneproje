@@ -107,3 +107,7 @@ C:\Users\bilge\OneDrive\Belgeler\GitHub\UML_diagram\yeniotomasyon\yeniotomasyon\
 C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.Emanetkitapverfrm.resources
 C:\Users\ilbul\Documents\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.kitapSil.resources
 C:\Users\BURCU\Desktop\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.Emanetkitapverfrm.resources
+C:\Users\ulasg\Desktop\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.Emanetkitapverfrm.resources
+C:\Users\ulasg\Desktop\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.kitapekle.resources
+C:\Users\ulasg\Desktop\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.kitapSil.resources
+C:\Users\ulasg\Desktop\GitHub\kutuphaneproje\yeniotomasyon\yeniotomasyon\yeniotomasyon\obj\Debug\yeniotomasyon.uyesil.resources
